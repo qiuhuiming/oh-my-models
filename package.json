@@ -1,0 +1,50 @@
+{
+  "name": "oh-my-models",
+  "version": "0.1.0",
+  "description": "CLI tool to manage agent models in oh-my-opencode",
+  "type": "module",
+  "bin": {
+    "oh-my-models": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target bun --format esm && bunx tsc --emitDeclarationOnly",
+    "typecheck": "bunx tsc --noEmit",
+    "test": "bun test",
+    "dev": "bun run src/index.ts",
+    "omm": "bun run src/index.ts",
+    "lint": "bunx eslint src",
+    "format": "bunx prettier --write src",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "chalk": "5.3.0",
+    "cli-table3": "0.6.4",
+    "clack": "0.1.0",
+    "zod": "3.24.1",
+    "jsonc-parser": "3.3.1",
+    "commander": "12.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "5.6.3",
+    "prettier": "3.3.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "oh-my-opencode",
+    "cli",
+    "agent",
+    "models",
+    "configuration"
+  ]
+}

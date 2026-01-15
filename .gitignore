@@ -1,0 +1,8 @@
+node_modules
+dist
+bun.lock
+.DS_Store
+*.backup.*
+*.log
+test-config.json
+test-temp/
