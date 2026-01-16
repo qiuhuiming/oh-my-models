@@ -14,11 +14,14 @@ CLI tool to manage agent models in [oh-my-opencode](https://github.com/code-yeon
 ## Installation
 
 ```bash
-# Global install
-bun i -g oh-my-models
+# Run directly from GitHub (no install needed)
+bunx https://github.com/qiuhuiming/oh-my-models list
 
-# Or run without install
-bunx oh-my-models list
+# Or clone and install locally
+git clone https://github.com/qiuhuiming/oh-my-models
+cd oh-my-models
+bun install
+bun link
 ```
 
 ## Usage

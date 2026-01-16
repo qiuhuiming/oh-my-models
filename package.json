@@ -4,7 +4,7 @@
   "description": "CLI tool to manage agent models in oh-my-opencode",
   "type": "module",
   "bin": {
-    "oh-my-models": "./dist/index.js"
+    "oh-my-models": "./src/index.ts"
   },
   "scripts": {
     "build": "bun build src/index.ts --outdir dist --target bun --format esm && bunx tsc --emitDeclarationOnly",
