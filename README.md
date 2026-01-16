@@ -24,6 +24,8 @@ bun install
 bun link
 ```
 
+After `bun link`, you can use the shorter `oh-my-models` command shown in the examples below.
+
 ## Usage
 
 ### List Models
