@@ -21,10 +21,10 @@ bunx github:qiuhuiming/oh-my-models list
 git clone https://github.com/qiuhuiming/oh-my-models
 cd oh-my-models
 bun install
-bun link
+bun link oh-my-models
 ```
 
-After `bun link`, you can use the shorter `oh-my-models` command shown in the examples below.
+After `bun link oh-my-models`, you can use the shorter `oh-my-models` command shown in the examples below.
 
 ## Usage
 
